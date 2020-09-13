@@ -37,28 +37,11 @@ public class Phone {
         return number;
     }
 
-    public static void main(String[] args) {
-        Phone[] phones = new Phone[3];
-        for (int i = 0; i < 3; i++) {
-            phones[i] = new Phone();
-            phones[i].number = "495000000" + i;
-            phones[i].model = "model" + i + 1;
-            phones[i].weight = 100 + i;
-        }
-
-        for (int i = 0; i < phones.length; i++) {
-            System.out.println("Phone " + (i + 1) + ":"
-                    + " number = " + phones[i].number
-                    + ", model = " + phones[i].model
-                    + ", weight = " + phones[i].weight);
-        }
-
-        for (int i = 0; i < phones.length; i++) {
-            phones[i].receiveCall("John Smith");
-            System.out.println(phones[i].getNumber());
-        }
-
-        phones[0].receiveCall("John Smith", "4959999999");
+    public String getModel() {
+        return model;
     }
 
+    public int getWeight() {
+        return weight;
+    }
 }
