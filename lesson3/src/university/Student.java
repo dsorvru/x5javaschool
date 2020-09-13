@@ -5,13 +5,21 @@ public class Student {
     private String firstName;
     private String lastName;
     private String group;
-    double averageMark;
+    private double averageMark;
 
     public Student(String firstName, String lastName, String group, double averageMark) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.group = group;
         this.averageMark = averageMark;
+    }
+
+    public int getScholarship() {
+        int scholarship = 80;
+        if (averageMark == 5.0) {
+            scholarship = 100;
+        }
+        return scholarship;
     }
 
     public String getFirstName() {
@@ -44,13 +52,5 @@ public class Student {
 
     public void setAverageMark(double averageMark) {
         this.averageMark = averageMark;
-    }
-
-    int getScholarship() {
-        int scholarship = 80;
-        if (averageMark == 5.0) {
-            scholarship = 100;
-        }
-        return scholarship;
     }
 }
