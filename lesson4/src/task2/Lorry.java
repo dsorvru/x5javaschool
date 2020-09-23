@@ -1,3 +1,5 @@
+package task2;
+
 public class Lorry extends Car {
 
     private int loadCapacity;

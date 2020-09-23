@@ -1,4 +1,6 @@
-public class Task2 {
+package task2;
+
+public class App {
 
     public static void main(String[] args) {
         Car lorry = new Lorry("Модель грузовика", "Класс грузовика",
