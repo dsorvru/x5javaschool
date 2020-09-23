@@ -1,3 +1,5 @@
+package task2;
+
 public abstract class Car {
 
     private String model;

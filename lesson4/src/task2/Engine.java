@@ -1,3 +1,5 @@
+package task2;
+
 public class Engine {
 
     private int power;
