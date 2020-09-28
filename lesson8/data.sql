@@ -1,0 +1,11 @@
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (1, 'Holder 1', 10);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (2, 'Holder 2', 20);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (3, 'Holder 3', 30);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (4, 'Holder 4', 40);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (5, 'Holder 5', 50);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (6, 'Holder 6', 60);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (7, 'Holder 7', 70);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (8, 'Holder 8', 80);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (9, 'Holder 9', 90);
+INSERT INTO ACCOUNTS (id, holder, amount) VALUES (10, 'Holder 10', 100);
+commit;
